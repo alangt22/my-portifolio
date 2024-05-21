@@ -46,9 +46,9 @@ const Hero = () => {
                         </Box>
                       </Grid>
                       <Grid item xs={12} md={7}>
-                        <Typography color="primay.contrastText" variant="h1" textAlign="center" pb={2}>Alan Nunes</Typography>
-                        <Typography color="primay.contrastText" variant="h2" textAlign="center">I'm a Developer Front-End</Typography>
-                        <Grid container display="flex" justifyContent="center" spacing={3} pt={3}> 
+                        <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Alan Nunes</Typography>
+                        <Typography color="primary.contrastText" variant="h2" textAlign="center">I'm a Developer Front-End </Typography>
+                        <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                             <Grid item xs={12} md={4} display="flex" justifyContent="center">
                                <StyledButton>
                                   <DownloadIcon/>

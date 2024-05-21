@@ -6,7 +6,7 @@ interface StyledButtonProps {
 }
 
 
-const StyledButton: React.FC<StyledButtonProps> = ({children}) => {
+const StyledButton: React.FC<StyledButtonProps> = ({ children }) => {
 
     const StyledButton = styled("button")(({theme})=> ({
         backgroundColor:"transparent",
@@ -20,7 +20,7 @@ const StyledButton: React.FC<StyledButtonProps> = ({children}) => {
         justifyContent:"center",
         gap:"10px",
         '&:hover':{
-            backgroundColor: theme.palette.secondary.dark
+            backgroundColor: theme.palette.secondary.light
         }
     }))
 
